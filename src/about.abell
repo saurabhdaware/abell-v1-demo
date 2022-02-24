@@ -1,0 +1,9 @@
+{{
+  import rawText from './test.txt?raw';
+}}
+<html>
+<body>
+  {{ 3 + 1 }}
+  {{ rawText }}
+</body>
+</html>
