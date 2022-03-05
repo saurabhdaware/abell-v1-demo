@@ -1,0 +1,11 @@
+{{
+  import rawText from './src/test.txt?raw';
+  import navbar from './src/_components/navbar.abell';
+}}
+<html>
+<body>
+  {{ navbar }}
+  {{ 3 + 1 }}
+  {{ rawText }}
+</body>
+</html>

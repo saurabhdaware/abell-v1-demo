@@ -1,0 +1,11 @@
+{{
+  import navbar from './src/_components/navbar.abell';
+}}
+<html>
+<body>
+  {{ navbar }}
+  {{ 3 + 120 }}
+  <div id="app"></div>
+  <script src="./src/index.entry.js" type="module"></script>
+</body>
+</html>
